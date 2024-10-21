@@ -60,7 +60,7 @@
 To run the Nmap Cheat Sheet CLI tool, execute the following command:
 
 ```bash
-python nmap_cli.py
+python nmap_helper.py
 ```
 
 ## Example
