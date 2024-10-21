@@ -37,8 +37,8 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/nmap-cli-tool.git
-    cd nmap-cli-tool
+    git clone https://github.com/jgpython/nmap_helper.git
+    cd nmap_helper
     ```
 
 2. Install the required Python packages:
