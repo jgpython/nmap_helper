@@ -74,16 +74,17 @@ To run a fast scan on a target:
 
 The output will be displayed in real-time.
 
+
 ## Cybersecurity Implications
 Nmap Helper aids in learning how to use Nmap in a cybersecurity context. Here are a few key takeaways:
 
-## Network Scanning
+### Network Scanning
 Nmap is a vital tool for identifying open ports, services, and vulnerabilities on target networks. It's widely used in cybersecurity for network exploration and security auditing.
 
-## Security Scanning and NSE
+### Security Scanning and NSE
 By utilizing Nmap's scripting engine (NSE), this tool also allows users to automate scanning for known vulnerabilities, giving them a broader perspective on network security.
 
-## Best Practices
+### Best Practices
 While using Nmap, remember that unauthorized scanning of networks is illegal. Ensure you have proper permissions before scanning any network.
 
 
