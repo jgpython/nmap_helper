@@ -13,7 +13,7 @@
 
 **Nmap Helper** is a Python-based CLI tool designed to help new users and cybersecurity professionals easily understand and execute common Nmap commands. It serves as both a practical reference and a learning tool, with an intuitive interface and real-time feedback on command execution.
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot1.png)
 
 ## Features
 
