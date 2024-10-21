@@ -9,19 +9,19 @@
 
 
 
-# Nmap Cheat Sheet CLI Tool
+# NmapHelper
 
-This Python-based CLI tool provides an easy-to-use interface for learning and executing common Nmap commands, aimed at new cybersecurity professionals and enthusiasts. It simplifies complex Nmap commands by offering pre-built command templates, explanations, and a step-by-step interface for running them. The tool also includes color-coded output and real-time command execution, making it interactive and informative.
+**Nmap Helper** is a Python-based CLI tool designed to help new users and cybersecurity professionals easily understand and execute common Nmap commands. It serves as both a practical reference and a learning tool, with an intuitive interface and real-time feedback on command execution.
+
+![Screenshot](./screenshot.png)
 
 ## Features
 
-- **Basic Nmap Commands**: Access a list of commonly used Nmap commands, such as fast scans, aggressive scans, and vulnerability scans.
-- **Target Specification**: Learn how to scan single or multiple IPs, domains, CIDR ranges, or even random hosts.
-- **Host Discovery**: Execute host discovery commands using various methods like TCP SYN, TCP ACK, UDP, and ARP pings.
-- **Port Scanning**: Run port scans with specific ports or ranges, or scan all TCP/UDP ports.
-- **OS and Service Detection**: Detect the operating system and service versions of hosts.
-- **Nmap Scripting Engine (NSE)**: Run NSE scripts to automate vulnerability scanning and service probing.
+- **Predefined Nmap Commands**: Access to a wide variety of commonly used Nmap commands with easy-to-understand explanations.
+- **Real-time Command Execution**: Execute Nmap commands directly from the tool and see real-time results.
 - **Command History**: View and re-run previously executed commands.
+- **Input Sanitization**: Ensures safe execution of user inputs by sanitizing them to avoid command injection.
+- **Cross-Platform Compatibility**: Works on Windows, Linux, and macOS.
 - **Real-time Output**: See the output of your Nmap commands in real-time, with color-coded output for better readability.
 
 ## Requirements
@@ -29,6 +29,8 @@ This Python-based CLI tool provides an easy-to-use interface for learning and ex
 - **Python 3.6+**
 - **Nmap**: Make sure Nmap is installed and accessible from the terminal.
 - **colorama**: For cross-platform colored terminal output.
+
+![Screenshot](./screenshot2.png)
 
 ## Installation
 
@@ -59,3 +61,44 @@ To run the Nmap Cheat Sheet CLI tool, execute the following command:
 
 ```bash
 python nmap_cli.py
+```
+
+## Example
+To run a fast scan on a target:
+
+1. Choose option 1 for Basic Nmap Commands.
+2. Select the fast scan command (nmap -F {target}).
+3. Enter the IP address or domain when prompted.
+
+![Screenshot](./screenshot3.png)
+
+The output will be displayed in real-time.
+
+## Cybersecurity Implications
+Nmap Helper aids in learning how to use Nmap in a cybersecurity context. Here are a few key takeaways:
+
+## Network Scanning
+Nmap is a vital tool for identifying open ports, services, and vulnerabilities on target networks. It's widely used in cybersecurity for network exploration and security auditing.
+
+## Security Scanning and NSE
+By utilizing Nmap's scripting engine (NSE), this tool also allows users to automate scanning for known vulnerabilities, giving them a broader perspective on network security.
+
+## Best Practices
+While using Nmap, remember that unauthorized scanning of networks is illegal. Ensure you have proper permissions before scanning any network.
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contribution
+Feel free to contribute by submitting issues or pull requests. Any improvements to make this tool more user-friendly or feature-rich are appreciated!
+
+## Disclaimer
+This tool is for educational purposes only. It should not be used for illegal activities or scanning networks without proper authorization.
+
+
+
+## Author
+**Created by**: jgpython  
+**GitHub**: [https://github.com/jgpython](https://github.com/jgpython)
+
